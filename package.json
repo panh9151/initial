@@ -1,0 +1,11 @@
+{
+  "name": "vscode-setup",
+  "version": "1.0.0",
+  "scripts": {
+    "i": "powershell -ExecutionPolicy Bypass -File ./install.ps1",
+    "e": "powershell -ExecutionPolicy Bypass -File ./export.ps1"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}

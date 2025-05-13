@@ -1,0 +1,44 @@
+﻿{
+  "Get txt CSS": {
+    "prefix": "txt",
+    "body": [
+      "font-family: \\;",
+      "font-weight: \\;",
+      "font-size: \\;",
+      "line-height: lh(\\, \\);",
+      "letter-spacing: \\;",
+      "color: \\;",
+    ],
+    "description": "Insert text CSS block",
+  },
+  "Get transition CSS": {
+    "prefix": "trans",
+    "body": ["transition: \\ ease-in-out .3s;"],
+    "description": "Insert transition",
+  },
+  "Get border CSS": {
+    "prefix": "bor",
+    "body": ["border: 1px solid \\;"],
+    "description": "Insert border",
+  },
+  "Short PHP Tag": {
+    "prefix": "ps",
+    "body": ["\u003c? \\ ?\u003e"],
+    "description": "Insert short PHP tag",
+  },
+  "Get background CSS": {
+    "prefix": "bg",
+    "body": ["background: url(assets/img/\\) no-repeat center / cover;"],
+    "description": "Insert background",
+  },
+  "Short PHP Echo": {
+    "prefix": "pse",
+    "body": ["\u003c?= \\ ?\u003e"],
+    "description": "Insert short PHP echo tag",
+  },
+  "Full PHP Tag": {
+    "prefix": "pf",
+    "body": ["\u003c?php", "\t\\", "?\u003e"],
+    "description": "Insert full PHP tag",
+  },
+}

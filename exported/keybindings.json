@@ -1,0 +1,15 @@
+﻿[
+  {
+    "args": {
+      "name": "Block Comment"
+    },
+    "key": "ctrl+shift+/",
+    "when": "editorTextFocus",
+    "command": "editor.action.insertSnippet"
+  },
+  {
+    "key": "shift+space",
+    "when": "editorTextFocus",
+    "command": "extension.calculateReplace"
+  }
+]
