@@ -1,0 +1,50 @@
+@use "../abstracts/" as *;
+// #region - Bottom Post Box
+.c-bottompost-box {
+  padding: 50px 40px;
+  background-color: $golden2;
+  margin-top: 60px;
+}
+.c-bottompost-box__txt {
+  font-size: 1.6rem;
+  line-height: lh(1.6, 3.2);
+  letter-spacing: 0em;
+  color: $dark4;
+}
+// #endregion
+
+// #region - QnA Box
+.c-qa-box {
+  display: flex;
+  align-items: center;
+  padding: 9px 20px 9px 9px;
+  border-radius: 1px solid $gray2;
+  gap: 20px;
+}
+.c-qa-box__imgbox {
+  width: 210px;
+}
+.c-qa-box__img {
+  width: 100%;
+  aspect-ratio: 210 / 140px;
+}
+.c-qa-box__contents {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.c-qa-box__heading {
+  font-size: 1.8rem;
+  line-height: lh(18, 24);
+  letter-spacing: 0;
+  color: $black3;
+}
+.c-qa-box__para {
+  font-size: 1.4rem;
+  line-height: lh(1.4, 2.4);
+  letter-spacing: 0;
+  color: $light3;
+}
+// #endregion

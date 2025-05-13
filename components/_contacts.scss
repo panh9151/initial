@@ -1,0 +1,43 @@
+@use "../abstracts/index" as *;
+
+/*====================
+  Utilities - Contact Icons
+====================*/
+.c-contact {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.c-contact__icon {
+  &:nth-of-type(1) {
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    mask-mode: alpha;
+    mask-image: url(../../assets/img/icons/instagram-icon.svg);
+    width: 20px;
+    height: 20px;
+    background-color: $black9;
+  }
+  &:nth-of-type(2) {
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    mask-mode: alpha;
+    mask-image: url(../../assets/img/icons/youtube-icon.svg);
+    width: 22px;
+    height: 16px;
+    background-color: $black9;
+  }
+  &:nth-of-type(3) {
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    mask-mode: alpha;
+    mask-image: url(../../assets/img/icons/line-icon.svg);
+    width: 20px;
+    height: 20px;
+    background-color: $black9;
+  }
+}

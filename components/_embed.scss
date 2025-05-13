@@ -1,0 +1,30 @@
+@use "../abstracts/" as *;
+// #region - Youtube
+.c-embed-ytb {
+  display: block;
+  width: 100%;
+}
+.c-embed-ytb__ref {
+  display: block;
+  aspect-ratio: 960 / 570;
+  width: 100%;
+}
+// #endregion
+
+// #region - GoogleMap
+.c-embed-ggm {
+  display: block;
+  width: 100%;
+}
+.c-embed-ggm__ref {
+  display: block;
+  aspect-ratio: 960 / 480;
+  width: 100%;
+}
+.c-embed-ggm__para {
+  font-size: 1.6 rem;
+  line-height: lh(1.6, 3.2);
+  letter-spacing: 0;
+  color: $dark3;
+}
+// #endregion
