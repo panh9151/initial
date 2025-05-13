@@ -61,3 +61,6 @@ coverage/
 
 # OS generated files
 Desktop.ini
+
+# GIT
+**/.git/
