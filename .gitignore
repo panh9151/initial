@@ -65,3 +65,6 @@ Desktop.ini
 # GIT
 **/.git/
 **/.gitignore/
+
+# Customs
+**/assets/scss/

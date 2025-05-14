@@ -1,3 +1,6 @@
+<?php
+  get_part('header/head')
+?>
 <body <?php echo current_user_can('administrator') ? 'class="is-admin"' : ''; ?>>
   <main class="<?= $main; ?>" id="<?= $main; ?>">
     <?php
