@@ -1,11 +1,10 @@
 @use "../abstracts/index" as *;
-/*====================
-  Base - Reset
-====================*/
+// ==================================
+// Base - Reset
+// ==================================
 
 html {
-  // background-color: #999;
-  // height: 1000px;
+  background-color: $base-background;
   scroll-behavior: smooth;
   font-size: 62.5%;
 }

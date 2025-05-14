@@ -1,8 +1,8 @@
 @use "../abstracts" as *;
 
-/*====================
-  Base - Layout
-====================*/
+// ==================================
+// Base - Layout
+// ==================================
 body {
   color: $base-text-color;
   font-family: $base-family;
@@ -31,17 +31,17 @@ main {
   }
 }
 
-/*====================
-  Base - State Utilities
-====================*/
+// ==================================
+// Base - State Utilities
+// ==================================
 .is-disabled,
 a.is-active {
   pointer-events: none;
 }
 
-/*====================
-  Base - Interaction
-====================*/
+// ==================================
+// Base - Interaction
+// ==================================
 input:hover,
 textarea:hover,
 button:hover,
