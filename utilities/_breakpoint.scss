@@ -25,10 +25,10 @@ $display-visible-utils: (
   ".sp-tab-only": (
     display: block,
     breakpoints: (sp, tab),
-    variants: (
-      "--inline": inline,
-      "--flex": flex
-    )
+    // variants: (
+    //   "--inline": inline,
+    //   "--flex": flex
+    // )
   )
 );
 

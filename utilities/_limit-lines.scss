@@ -27,7 +27,7 @@ $tab-line-clamps: (1);
 }
 
 // Smartphone (SP) styles
-@include sp {
+@include on(sp) {
   @each $lines in $sp-line-clamps {
     data[data-sp-line="#{$lines}"] {
       display: -webkit-box;
@@ -48,7 +48,7 @@ $tab-line-clamps: (1);
 }
 
 // Tablet (Tab) styles
-@include tab {
+@include on(tab) {
   @each $lines in $tab-line-clamps {
     data[data-tab-line="#{$lines}"] {
       display: -webkit-box;

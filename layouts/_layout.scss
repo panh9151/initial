@@ -17,7 +17,7 @@ $containers: (
 
 :root {
   --padding: 40px;
-  @include sp {
+  @include on(sp) {
     --padding: 20px;
   }
 }
@@ -46,7 +46,7 @@ $containers: (
       padding: 0 var(--padding);
 
       @if $spWidth != null {
-        @include sp {
+        @include on(sp) {
           width: calc(#{$spWidth} + var(--padding) * 2);
         }
       }

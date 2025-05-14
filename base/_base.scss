@@ -6,7 +6,6 @@
 body {
   color: $base-text-color;
   font-family: $base-family;
-  position: relative;
   background-color: $base-background;
 
   &.is-fixed {
@@ -27,7 +26,7 @@ main {
 #main {
   scroll-margin-top: -30px;
 
-  @include sp {
+  @include on(sp) {
     scroll-margin-top: -15px;
   }
 }

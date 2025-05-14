@@ -3,34 +3,33 @@
 ====================*/
 
 // #region - Breakpoints
+$sp-breakpoint: 767px;
+$tab-breakpoint: 1024px;
 $breakpoints: (
   sp: $sp-breakpoint,
   tab: $tab-breakpoint,
   pc: $tab-breakpoint + 1px
 );
-
 $toTargets: (
   toSp: (
-    ssp: $ssp-breakpoint,
-    lsp: 900px
+    // ssp: $ssp-breakpoint,
+    // lsp: 900px
   ),
   toTab: (
-    ltab: $ltab-breakpoint,
-    st: 800px
+    // ltab: $ltab-breakpoint,
+    // st: 800px
   ),
   toPc: (
-    big: 1300px
+    // big: 1300px
   )
 );
 // #endregion
 
 // #region - Common Colors
 // Dark
-$black0: #000;
+$black3: #333;
 // Light
-$white: #FFF;
-// Red
-$red1: #990000;
+$white0: #FFF;
 // #endregion
 
 // #region - General Settings
@@ -40,13 +39,14 @@ $font-poppins: "Poppins", sans-serif;
 
 // Array for loops
 $fonts: (
-  "noto": $font-noto-sans,
+  "noto": $font-noto,
   "poppins": $font-poppins,
 );
 // Settings
 $base-family: $font-noto;
-$base-text-color: $black1;
-$primary: $black1;
+$base-text-color: $black3;
+$primary: $black3;
+$base-background: $white0;
 // #endregion
 
 // #region - Components Custom
